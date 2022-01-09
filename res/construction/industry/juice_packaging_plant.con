@@ -1833,7 +1833,7 @@ local generatedData = {
 function data()
 	local constr = {
 		description = {
-			name = _("Juice packaging plant"),
+			name = _("Fruit juice packaging plant"),
 		},
 		availability = {
 
