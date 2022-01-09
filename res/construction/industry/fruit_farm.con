@@ -421,7 +421,7 @@ local generatedData = {
 function data()
 	local constr = {
 		description = {
-			name = _("Fruit Farm"),
+			name = _("Tropical fruit plantation"),
 		},
 		availability = {
 

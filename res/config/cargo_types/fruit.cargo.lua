@@ -1,7 +1,7 @@
 function data()
 return
 	{
-		id = "FRUIT", name = _("Tropical Fruit"), weight = 1000.0,
+		id = "FRUIT", name = _("Tropical fruit"), weight = 1000.0,
 		order = 32,
 		discreteModels = {
 			SMALL = "industry/cargo/food_small.mdl",
