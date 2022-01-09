@@ -1,0 +1,36 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 23.158100128174, 6.5565032958984, 14.088930130005, },
+		bbMin = { -27.971652984619, -8.4624328613281, -3.0004534721375, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 25.564876556396, 7.5094680786133, 8.5446920394897, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/shared/distillery_building_wall_white.mtl", "asset/shared/distillery_building_concrete.mtl", "asset/shared/distillery_building_misc_alpha.mtl", "asset/shared/distillery_building_misc.mtl", "asset/shared/distillery_building_roof1.mtl", "asset/shared/distillery_building_wall_stone.mtl", },
+						mesh = "asset/distillery_building_1/distillery_building_1_lod0.msh",
+						name = "distillery_building_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 5532.4560546875,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

@@ -1,0 +1,66 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 0.90091073513031, 0.91098022460938, 1.8300122022629, },
+		bbMin = { -0.93438333272934, -0.91589057445526, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0.9176470041275, 0.91343539953232, 0.91500610113144, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "industry/cargo/waste_water.mtl", },
+								mesh = "industry/cargo/crude_small/cargo_crude_barrel_lod0.msh",
+								name = "cargo_crude_barrel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.48500010371208, 0.45999908447266, 0.19178099930286, 1, },
+							},
+							{
+								materials = { "industry/cargo/waste_water.mtl", },
+								mesh = "industry/cargo/crude_small/cargo_crude_barrel_lod0.msh",
+								name = "cargo_crude_barrel (2)",
+								transf = { 0.017668953165412, -0.99984389543533, -8.7553996930714e-19, 0, 0.99984389543533, 0.017668953165412, -9.9097051329575e-17, 0, 9.9097051329575e-17, 8.7553800475318e-19, 1, 0, 0.44999998807907, 0.45999908447266, 0.19178099930286, 1, },
+							},
+							{
+								materials = { "industry/cargo/waste_water.mtl", },
+								mesh = "industry/cargo/crude_small/cargo_crude_barrel_lod0.msh",
+								name = "cargo_crude_barrel (3)",
+								transf = { 0.32767677307129, -0.94478988647461, -1.3621724950212e-17, 0, 0.94478988647461, 0.32767677307129, -8.0846125059316e-17, 0, 8.0846125059316e-17, 1.3621729913296e-17, 1, 0, 0.44999998807907, -0.46500089764595, 0.19178099930286, 1, },
+							},
+							{
+								materials = { "industry/cargo/waste_water.mtl", },
+								mesh = "industry/cargo/crude_small/cargo_crude_barrel_lod0.msh",
+								name = "cargo_crude_barrel (4)",
+								transf = { 0.01719481125474, -0.99985218048096, -8.5224506399279e-19, 0, 0.99985218048096, 0.01719481125474, -9.9121178533682e-17, 0, 9.9121178533682e-17, 8.5225080255828e-19, 1, 0, -0.46999999880791, -0.46500089764595, 0.19178099930286, 1, },
+							},
+							{
+								materials = { "industry/cargo/cargo_items_04.mtl", },
+								mesh = "industry/cargo/pallet_lod0.msh",
+								name = "pallet",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "cargo_crude",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 451.34771728516,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

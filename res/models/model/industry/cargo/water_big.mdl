@@ -1,0 +1,36 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.8944253921509, 1.7095565795898, 3.5862147808075, },
+		bbMin = { -4.9460926055908, -1.7095565795898, -0.054847128689289, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.9202589988708, 1.7095565795898, 1.8205310106277, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "industry/cargo/water.mtl", },
+						mesh = "industry/cargo/crude_big/cargo_crude_large_lod0.msh",
+						name = "cargo_crude_large",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1134.34765625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

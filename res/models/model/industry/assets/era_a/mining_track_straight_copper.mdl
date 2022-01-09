@@ -1,0 +1,36 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.8660253286362, 16, 0.5, },
+		bbMin = { -1.8660253286362, 0, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.8660253286362, 8, 0.25, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+						mesh = "industry/assets/era_a/mining_track_straight/straight_track_1_lod0.msh",
+						name = "straight_track_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1418.9829101563,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

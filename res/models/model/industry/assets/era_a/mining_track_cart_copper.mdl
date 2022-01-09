@@ -1,0 +1,50 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 0.69901925325394, 1, 1.2111809253693, },
+		bbMin = { -0.69901925325394, -1, -0.011180862784386, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0.69901925325394, 1, 0.6111809015274, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+								mesh = "industry/assets/era_a/mining_track_cart/cart_w1_lod0.msh",
+								name = "cart_w1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.34498113393784, 0.18881912529469, 1, },
+							},
+							{
+								materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+								mesh = "industry/assets/era_a/mining_track_cart/cart_w2_lod0.msh",
+								name = "cart_w2",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.34498113393784, 0.18881912529469, 1, },
+							},
+						},
+						materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+						mesh = "industry/assets/era_a/mining_track_cart/cart_lod0.msh",
+						name = "cart",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 360.14752197266,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

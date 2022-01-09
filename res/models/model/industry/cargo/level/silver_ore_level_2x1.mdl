@@ -1,0 +1,62 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.6849999427795, 1.1000000238419, 0.30000001192093, },
+		bbMin = { -1.6849999427795, -1.1000000238419, 0, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/silver_ore.mtl", },
+						mesh = "industry/cargo/level/lod_0_freight_iron.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6150000095367, 0, -1.1000000238419, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 80,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/silver_ore.mtl", },
+						mesh = "industry/cargo/level/lod_1_freight_iron.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6150000095367, 0, -1.1000000238419, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 80,
+			visibleTo = 220,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/silver_ore.mtl", },
+						mesh = "industry/cargo/level/lod_2_freight_iron.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6150000095367, 0, -1.1000000238419, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 220,
+			visibleTo = 790,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

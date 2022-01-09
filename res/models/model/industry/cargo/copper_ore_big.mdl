@@ -1,0 +1,48 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.8811798095703, 1.7872428894043, 1.7083909511566, },
+		bbMin = { -4.8925585746765, -1.7910041809082, -0.050370000302792, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.886869430542, 1.7891235351563, 0.87938046455383, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/copper_ore.mtl", },
+								mesh = "industry/cargo/slag_big/cargo_open_container_large_fill_slag_lod0.msh",
+								name = "cargo_open_container_large_fill_slag",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "industry/cargo/cargo_items_01.mtl", },
+								mesh = "industry/cargo/slag_big/cargo_open_container_large_slag_lod0.msh",
+								name = "cargo_open_container_large_slag",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "cargo_slag_large",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 1100.3051757813,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

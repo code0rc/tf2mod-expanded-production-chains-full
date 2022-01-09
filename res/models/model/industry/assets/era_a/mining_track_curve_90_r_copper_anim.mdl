@@ -1,0 +1,88 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 10.18591594696, 12.051941871643, 1.7111809253693, },
+		bbMin = { -1.8660253286362, -1, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.0259704589844, 6.5259709358215, 0.85559046268463, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								animations = {
+									producing = {
+										params = {
+											id = "industry/assets/era_a/mining_track_curve_90_r_anim/producing/cart_curve_90_r_locater.ani",
+										},
+										type = "FILE_REF",
+									},
+								},
+								children = {
+									{
+										children = {
+											{
+												animations = {
+													producing = {
+														params = {
+															id = "industry/assets/era_a/mining_track_curve_90_r_anim/producing/cart_w1.ani",
+														},
+														type = "FILE_REF",
+													},
+												},
+												materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+												mesh = "industry/assets/era_a/mining_track_cart/cart_w1_lod0.msh",
+												name = "cart_w1",
+												transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.34498113393784, 0.18881912529469, 1, },
+											},
+											{
+												animations = {
+													producing = {
+														params = {
+															id = "industry/assets/era_a/mining_track_curve_90_r_anim/producing/cart_w2.ani",
+														},
+														type = "FILE_REF",
+													},
+												},
+												materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+												mesh = "industry/assets/era_a/mining_track_cart/cart_w2_lod0.msh",
+												name = "cart_w2",
+												transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.34498113393784, 0.18881912529469, 1, },
+											},
+										},
+										materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+										mesh = "industry/assets/era_a/mining_track_cart/cart_lod0.msh",
+										name = "cart",
+										transf = { 1, 0, 9.6543049812607e-33, 0, 0, 1, 0, 0, -9.6543049812607e-33, 0, 1, 0, 0, 0, 0, 1, },
+									},
+								},
+								name = "cart_curve_90_r_locater",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.5, 1, },
+							},
+						},
+						materials = { "industry/assets/era_a/mining_track_details_copper_1.mtl", },
+						mesh = "industry/assets/era_a/mining_track_curve_90_r_anim/curve_90_r_track_anim_1_lod0.msh",
+						name = "curve_90_r_track_anim_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 2820.681640625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
