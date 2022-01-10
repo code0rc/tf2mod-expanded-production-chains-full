@@ -2,19 +2,19 @@ Adds cargo types and industries available throughout the campaign into free play
 
 
 
-WARNING: Some existing production chains have been slightly altered - for instance, the tools factory now uses planks and steel instead of just planks - so be careful when adding the mod into an existing save game where might not have the options to quickly get the new requirements to the altered production buildings.
+WARNINGS
+
+ - Some existing production chains have been slightly altered - for instance, the tools factory now uses planks and steel instead of just planks - so be careful when adding the mod into an existing save game where might not have the options to quickly get the new requirements to the altered production buildings.
 
 
 
-RECOMMENDED: I recommend playing on a new map with size >= Large to fit all production chains comfortably. If your system allows you to use experimental map sizes, you should opt for one of those. In case you're wondering how to enable experimental map sizes, here's a tutorial video: https://youtu.be/QzEsygQoFgs
+RECOMMENDATIONS
+
+ - I recommend playing on a new map with size >= Large to fit all production chains comfortably. If your system allows you to use experimental map sizes, you should opt for one of those. In case you're wondering how to enable experimental map sizes, here's a tutorial video: https://youtu.be/QzEsygQoFgs
 
 
 
-LANGUAGES: EN, DE, RU
-
-
-
-FEATURES:
+FEATURES
 
 Unlocked cargo types and production chains from the campaign:
  - Alcohol (was Whisky in the campaign)
@@ -64,10 +64,28 @@ Entirely new production chains:
  - Fruit juice factory produces fruit juice from tropical fruit, sugar and water
  - Fruit juice packaging plant produces fruit juice packets from fruit juice concentrate, water and packaging cartons
 
-
-
 Altered production chains:
-
  - Base game: Tools now require one of each: Steel, Planks
- 
  - Unlocked campaign production chains: Cigar factory now requires 2 tobacco instead of 1 tobacco and 1 paper
+
+
+LANGUAGES
+ - English (EN)
+ - German (DE)
+ - Russian (RU)
+
+
+
+CREDITS
+
+This mod is based on assets and scripts from the vanilla game by Urban Games and the Industrial Revolution mod on Nexus Mods (https://www.nexusmods.com/transportfever2/mods/17) by Aviatori (https://www.nexusmods.com/transportfever2/users/14456634).
+I want to thank both parties for their generous permission to use and extend their work and provide this mod to everyone free of charge.
+
+
+
+CONTRIBUTIONS
+
+ - Fork this mod on GitHub (https://github.com/code0rc/tf2mod-expanded-production-chains-full).
+ - Feel free to open issues and pull requests if you would like to see a feature added to the mod.
+ - Please don't make breaking changes to the mod or any of the production chains. Issues and merge requests with breaking changes will be closed without notice.
+ 
