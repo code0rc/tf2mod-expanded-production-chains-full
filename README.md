@@ -62,7 +62,7 @@ Entirely new production chains:
  - Cigarette factory produces cigarettes from tobacco and paper
  - Packaging carton factory produces packaging carton from paper
  - Fruit juice factory produces fruit juice from tropical fruit, sugar and water
- - Fruit juice packaging plant produces druit juice packets from fruit juice concentrate, water and packaging cartons
+ - Fruit juice packaging plant produces fruit juice packets from fruit juice concentrate, water and packaging cartons
 
 
 
